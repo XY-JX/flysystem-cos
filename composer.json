@@ -1,0 +1,22 @@
+{
+    "name": "xy_jx/flysystem-cos",
+    "description": "Flysystem adapter for the QCloud COS storage.",
+    "require": {
+        "php": ">=7.0",
+        "league/flysystem": "^1.0",
+        "xy_jx/Qcloud": "^0.1",
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "xy_jx\\Flysystem\\": "src"
+        }
+    },
+    "authors": [
+        {
+            "name": "overtrue",
+            "email": "i@overtrue.me"
+        }
+    ],
+    "license": "MIT"
+}
