@@ -93,7 +93,7 @@ class CosAdapter extends AbstractAdapter implements CanOverwriteFiles
         }
 
         $options = [
-            'Scheme' => $this->config['scheme'] ?? 'http',
+            'Schema' => $this->config['scheme'] ?? 'http',
         ];
 
         return $this->getClient()->getObjectUrl(
@@ -110,7 +110,7 @@ class CosAdapter extends AbstractAdapter implements CanOverwriteFiles
      */
     public function getTemporaryUrl($path, $expiration, array $options = [])
     {
-        $options = array_merge($options, ['Scheme' => $this->config['scheme'] ?? 'http']);
+        $options = array_merge($options, ['Schema' => $this->config['scheme'] ?? 'http']);
 
         $expiration = date('c', !\is_numeric($expiration) ? \strtotime($expiration) : \intval($expiration));
 
