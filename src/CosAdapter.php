@@ -8,8 +8,8 @@ use League\Flysystem\Adapter\AbstractAdapter;
 use League\Flysystem\Adapter\CanOverwriteFiles;
 use League\Flysystem\AdapterInterface;
 use League\Flysystem\Config;
-use xy_jx\Qcloud\Client;
-use xy_jx\Qcloud\Exception\NoSuchKeyException;
+use Qcloud\Cos\Client;
+use Qcloud\Cos\Exception\CosException;
 
 /**
  * Class CosAdapter.
