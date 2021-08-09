@@ -7,6 +7,7 @@
         "qcloud/cos-sdk-v5": "dev-guzzle7",
         "guzzlehttp/guzzle": "^7.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "xy_jx\\Flysystem\\": "src"
@@ -14,8 +15,8 @@
     },
     "authors": [
         {
-            "name": "overtrue",
-            "email": "i@overtrue.me"
+            "name": "xy_jx",
+            "email": "zhangschooi@qq.com"
         }
     ],
     "license": "MIT"
